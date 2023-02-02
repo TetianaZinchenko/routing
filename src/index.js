@@ -50,7 +50,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/routing/">
       <App />
     </BrowserRouter>
   </StrictMode>
